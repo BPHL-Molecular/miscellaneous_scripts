@@ -4,7 +4,7 @@
 #Email: sarah.schmedes@flhealth.gov
 
 '''
-This program is designed to mask designed sites in a fasta file. This was developed to mask
+This program is designed to mask designated sites in a fasta file. This was developed to mask
 sites of PCR/sequencing errors in SARS-CoV-2 consensus assemblies generated using ivar after review with NCBI's VADR prior
 to submission.
 '''
