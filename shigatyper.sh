@@ -13,7 +13,7 @@
 
 mkdir -p shigatyper_out
 
-for f in $(cat files.txt)
+for f in $(cat samples.txt)
 do
     singularity exec -B $(pwd):/data /apps/staphb-toolkit/containers/shigatyper_2.0.1.sif shigatyper --R1 ${f}_1.fastq.gz --R2 ${f}_2.fastq.gz
     mv *tsv shigatyper_out 
