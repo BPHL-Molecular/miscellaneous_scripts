@@ -11,6 +11,8 @@
 #SBATCH --output=kraken_%j.out
 #SBATCH --error=kraken_%j.err
 
+module load apptainer
+
 mkdir kraken_out_broad
 
 for f in $(cat samples.txt)
