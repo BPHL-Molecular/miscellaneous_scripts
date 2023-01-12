@@ -11,6 +11,8 @@
 #SBATCH --output=shigatyper_%j.out
 #SBATCH --error=shigatyper_%j.err
 
+module load apptainer
+
 mkdir -p shigatyper_out
 
 for f in $(cat samples.txt)
